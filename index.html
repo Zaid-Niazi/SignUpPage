@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign up form project</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="image_container">
+        <div class="logo_container">
+          <img
+            class="logo_img"
+            src="logo.gif"
+            alt="The Odin Project Logo"
+          />
+          <h2 class="logo_text">Project Pulsar</h2>
+        </div>
+
+      </section>
+      <section class="content_container">
+        <header>
+          <h2>
+            <p class="hero">Unleashing the Future of AI: An Open-Source Marvel, Striving for AGI through the Collective Genius of Infinite Contributors. Sign Up <i>now</i> to get started.</p>
+          </h2>
+          <h2>You <i>know</i> you want to.</h2>
+        </header>
+        <section class="form_container">
+          <form action="">
+            <div class="input_fields_wrapper">
+              <h2>Let's do this!</h2>
+              <section class="fields">
+                <p>
+                  <label for="name">First Name</label
+                  ><input type="text" id="name" name="userFisrtName" />
+                </p>
+                <p>
+                  <label for="last_name">Last Name</label
+                  ><input type="text" id="last_name" name="userLastName" />
+                </p>
+                <p>
+                  <label for="email">Email</label
+                  ><input type="email" id="email" name="userEmail" />
+                </p>
+                <p>
+                  <label for="phone_number">Phone Number</label
+                  ><input type="tel" id="phone_number" name="userPhoneNumber" />
+                </p>
+                <p>
+                  <label for="password">Password</label
+                  ><input
+                    type="password"
+                    id="password"
+                    name="userPassword"
+                    data-name="firstPassword"
+                  />
+                </p>
+                <p>
+                  <label for="password_confirm">Confirm Password</label
+                  ><input
+                    type="password"
+                    id="password_confirm"
+                    name="userPasswordConfirm"
+                    data-name="secondPassword"
+                  />
+                </p>
+              </section>
+              <p class="error_info" data-name="errorText">
+                *Passwords do not match
+              </p>
+            </div>
+            <div class="btn_wrapper">
+              <button class="submit_btn" type="submit" data-name="submitBtn">
+                Create Account
+              </button>
+            </div>
+          </form>
+          <p class="log_in_link">
+            Already have an account? <a class="login_link" href="">Log in</a>
+          </p>
+        </section>
+      </section>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
